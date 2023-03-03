@@ -26,3 +26,31 @@ IoT개발자과정 데이터베이스 - MySQL
     - Sample DB 설치
     - WorkBench 사용법
     - Varchar(문자열길이) : 영어용(회원아이디) // NVarchar(문자열길이) : 한글용(회원이름, 회원주소)
+
+# 2일차
+1. MySQL 학습
+    - DB모델링
+    - MySQL 유틸리티
+    - SQL 기본
+
+# 3일차
+1. MySQL 학습
+    - SQL 기본 CRUD
+        - INSERT
+        - SELECT
+        - UPDATE
+        - DELETE
+    - SQL 고급
+        - 데이터형식
+        - 내장함수
+        - JOIN
+    - CHAR(10) = 'HELLO     ' 와 VARCHAR(10) = 'HELLO' 의 차이
+
+# 4일차
+1. MySQL 학습
+    - SQL 고급
+        - JOIN
+        - 테이블/뷰
+        - 인덱스
+2. MySQL 활용
+    - BookRentalShop 쿼리 연습
