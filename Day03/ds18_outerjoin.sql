@@ -1,7 +1,7 @@
 -- INNER JOIN
-SELECT DISTINCT s.stdName, s.addr, c.clubName, t.roomNo
+SELECT DISTINCT s.stdName, s.addr, j.clubName, c.roomNo
   FROM stdtbl AS s
-  JOIN stdclubtbl AS c
-    ON s.stdName = c.stdName
-  JOIN clubtbl AS t
-    ON c.clubName = t.clubName
+  JOIN stdclubtbl AS j
+    ON s.stdName = j.stdName
+  JOIN clubtbl AS c
+    ON c.clubName = j.clubName
