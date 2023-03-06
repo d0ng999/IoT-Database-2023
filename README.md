@@ -1,7 +1,7 @@
 # IoT-Database-2023
 IoT개발자과정 데이터베이스 - MySQL
 
-![MySQL](https://github.com/d0ng999/IoT-Database-2023/blob/main/Images/KakaoTalk_20230306_111145951.png)
+![MySQL](https://github.com/d0ng999/IoT-Database-2023/raw/main/Images/KakaoTalk_20230306_111145951.png)
 
 ## MySQL 다운로드 받는법
 - MySQL - Download - MySQL Community (GPL) Downloads »
