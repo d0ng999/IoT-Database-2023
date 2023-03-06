@@ -96,33 +96,9 @@ SELECT b.userID '아이디'
 
 -- 정렬 ORDER BY
 -- 내림차순은 DESC
-SELECT *
+  SELECT *
      , birthYear
      , height
   FROM usertbl
  WHERE birthYear > 1969
  ORDER BY height DESC, birthYear ASC; /* DEFAULT 값은 ASC이다. */
- 
--- 중복제거(위치는 SELECT 뒤)
-SELECT DISTINCT addr
-  FROM usertbl
- ORDER BY addr;
- 
--- LIMIT 갯수 제한
-USE homeplus;
-
-SELECT *
-  FROM indextbl
- LIMIT 5; /* 시작부터 숫자까지 나옴 */
- 
--- 조회하면서 새로운 테이블 생성(진짜 말 그대로 새로운 테이블 생성했음, 이러고 나중에 지운다)
--- 이렇게 생긴 테이블에는 기본키가 없어진다. 진짜 일시적인 용도!
--- PK / FK 제약조건은 복사안됨
--- 일부 컬럼(열)만 복사 테이블 생성 가능
-USE sqldb;
-CREATE TABLE elec_buytbl_new
-SELECT num
-	 , prodName
-     , price
-  FROM buytbl
- WHERE groupName = '전자';
